@@ -1,0 +1,8 @@
+_worker.js
+functions/
+wrangler.jsonc
+.env
+.env.*
+.git/
+.gitignore
+README.md
