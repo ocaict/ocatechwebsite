@@ -1,6 +1,6 @@
 /**
- * Cloudflare Worker / Pages Entry Point: _worker.js
- * Universal handler supporting both Cloudflare Pages and Cloudflare Workers (with Assets)
+ * Cloudflare Worker Entry Point: worker.js
+ * Handles serverless API routing (/api/chat, /api/contact) and serves static assets via env.ASSETS
  */
 
 import { onRequestPost as chatPost, onRequestOptions as chatOptions } from './functions/api/chat.js';
@@ -43,7 +43,7 @@ export default {
       return env.ASSETS.fetch(request);
     }
 
-    // Fallback for direct Worker invocation
+    // Fallback
     return new Response('Not Found', { status: 404 });
   }
 };
