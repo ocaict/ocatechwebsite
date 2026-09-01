@@ -1,7 +1,9 @@
 worker.js
+_worker.js
 wrangler.jsonc
 functions/
 .env
 .env.*
 .gitignore
 README.md
+data/
