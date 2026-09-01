@@ -142,33 +142,50 @@ export async function onRequestPost(context) {
     // Append current user message
     messages.push({ role: 'user', content: message.trim() });
 
-    // Call Groq API
-    const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: 'llama-3.1-8b-instant',
-        messages: messages,
-        temperature: 0.3,
-        max_tokens: 450,
-        top_p: 0.9
-      })
-    });
+    // Call Groq API with robust multi-model fallback
+    const candidateModels = [
+      'openai/gpt-oss-120b',
+      'openai/gpt-oss-20b',
+      'qwen/qwen3.8-27b',
+      'qwen/qwen3.6-27b',
+      'llama-3.3-70b-versatile',
+      'llama-3.1-8b-instant'
+    ];
 
-    if (!groqResponse.ok) {
-      const errorText = await groqResponse.text();
-      console.error('Groq upstream API error:', groqResponse.status, errorText);
-      return new Response(JSON.stringify({
-        reply: "Thank you for reaching out to OCATECH! For instant answers regarding course details, admission, or pricing, please chat with us on WhatsApp at **08165321429**."
-      }), { status: 200, headers: corsHeaders });
+    let reply = null;
+    for (const model of candidateModels) {
+      try {
+        const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${apiKey}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model: model,
+            messages: messages,
+            temperature: 0.3,
+            max_tokens: 450,
+            top_p: 0.9
+          })
+        });
+
+        if (groqResponse.ok) {
+          const groqData = await groqResponse.json();
+          reply = groqData.choices?.[0]?.message?.content;
+          if (reply) break;
+        } else {
+          const errText = await groqResponse.text();
+          console.warn(`Groq model ${model} failed (${groqResponse.status}):`, errText);
+        }
+      } catch (modelErr) {
+        console.warn(`Error attempting Groq model ${model}:`, modelErr);
+      }
     }
 
-    const groqData = await groqResponse.json();
-    const reply = groqData.choices?.[0]?.message?.content || 
-      "Thank you for contacting OCATECH Digital Solutions. Please chat with our team on WhatsApp at 08165321429.";
+    if (!reply) {
+      reply = "Thank you for reaching out to OCATECH! For immediate course guidance, admission details, or technical services, please message our admissions team on WhatsApp at **08165321429** or call **07062620862**.";
+    }
 
     return new Response(JSON.stringify({ reply }), {
       status: 200,
