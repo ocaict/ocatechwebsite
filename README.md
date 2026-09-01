@@ -161,9 +161,4 @@ To view the website locally on your computer:
 
 ---
 
-## 📞 Support & Business Contact
-- **OCATECH Digital Solutions**
-- **Address**: 62 New Market Road, Onitsha North, Anambra State, Nigeria
-- **Phone / WhatsApp**: 08165321429
-- **Phone**: 07062620862
-- **Email**: ocatechskill@gmail.com
+
