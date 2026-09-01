@@ -16,6 +16,8 @@ const OCATECH_KNOWLEDGE = {
     phone: "07062620862",
     whatsapp: "08165321429 (https://wa.me/2348165321429)",
     email: "ocatechskill@gmail.com",
+    youtube: "https://www.youtube.com/@ocatechskills",
+    facebook: "https://www.facebook.com/ocatechskills/",
     workingHours: "Monday - Saturday: 8:30 AM - 5:30 PM (WAT)",
     vision: "To become a trusted technology training and ICT solutions provider that helps individuals and businesses develop practical skills and effectively use technology for growth and productivity.",
     mission: "To provide accessible, practical and relevant technology education while delivering reliable ICT-related services that solve real-world problems.",
