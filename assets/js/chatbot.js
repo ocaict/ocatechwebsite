@@ -82,7 +82,7 @@
         // Initial Welcome Message
         const welcomeMessage = {
           role: 'assistant',
-          content: "👋 Hello! Welcome to **OCATECH Digital Solutions**. I'm your AI assistant.\n\nAsk me anything about our **15 practical tech programmes**, physical classes in Onitsha, online training, or ICT services (CCTV, Solar, Software)!\n\nHow can I help you today?"
+          content: "👋 Hello! Welcome to **OCATECH Digital Solutions**. I'm your AI assistant.\n\nAsk me anything about our **practical tech programmes**, physical classes in Onitsha, online training, or ICT services (CCTV, Solar, Software)!\n\nHow can I help you today?"
         };
         chatHistory.push(welcomeMessage);
         renderHistory();

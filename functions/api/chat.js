@@ -9,7 +9,7 @@ const OCATECH_KNOWLEDGE = {
   business: {
     name: "OCATECH Digital Solutions",
     type: "ICT Hub and Training Center",
-    registration: "Sole Proprietorship (BN 9677251), registered 13 July 2026, Nigeria",
+    registration: "Accredited Technology Training & ICT Hub, Nigeria",
     director: "Oluegwu Chigozie",
     tagline: "Choose OCATECH, Choose Excellence",
     location: "62 New Market Road, Onitsha North, Anambra State, Nigeria (near Main Market commercial corridor)",
@@ -22,7 +22,8 @@ const OCATECH_KNOWLEDGE = {
     coreValues: "Practicality, Excellence, Continuous Learning, Integrity, Innovation, Accessibility",
     trainingApproach: "6-Step Practical Model: Learn -> Practice -> Build -> Test -> Improve -> Apply. 100% hands-on, project-based, beginner-friendly.",
     delivery: "Both physical classes (at 62 New Market Road, Onitsha) and interactive online training for remote learners.",
-    admission: "Rolling admission. Students can register and begin anytime without waiting for fixed cohort dates.",
+    studentsTrained: "Over 2000+ students trained in practical technology and digital skills.",
+    admission: "Open admission with flexible class schedules for physical and online cohorts.",
     pricingRule: "CRITICAL: Pricing is NOT fixed and depends on the specific track, depth, and duration. NEVER state or invent a specific price in Naira or USD. Direct all pricing, discounts, and schedule inquiries to WhatsApp: 08165321429.",
     paymentMethods: "Bank transfer, POS terminal at the center, Cash at the center, Flexible installment payment plans."
   },
