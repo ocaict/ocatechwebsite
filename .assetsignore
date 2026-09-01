@@ -1,9 +1,7 @@
 worker.js
-_worker.js
-functions/
 wrangler.jsonc
+functions/
 .env
 .env.*
-.git/
 .gitignore
 README.md
