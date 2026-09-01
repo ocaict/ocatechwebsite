@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Programmes Catalog — OCATECH Digital Solutions | Onitsha</title>
+  <meta name="description" content="Explore all 15 practical tech training programmes at OCATECH Digital Solutions. Web development, Python, Data Analysis, Graphic Design, AI Engineering, CCTV, Networking, and more.">
+  <meta name="keywords" content="OCATECH courses, tech training Onitsha, coding school Anambra, data analysis, python, cybersecurity, graphic design, computer certificate, web design">
+  <link rel="canonical" href="https://ocatech.pages.dev/programmes.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="15 Practical Tech Training Programmes — OCATECH Digital Solutions">
+  <meta property="og:description" content="Discover hands-on ICT and digital skills programmes in Onitsha. Filter by category, view syllabus, and apply today.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo" aria-label="OCATECH Digital Solutions">
+        <div class="brand-logo-mark">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 12H8L11 5L14 19L17 12H20" stroke="#46CEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="12" r="2" fill="#FF6600"/><circle cx="20" cy="12" r="2" fill="#46CEFF"/></svg>
+        </div>
+        <div class="brand-logo-text">
+          <div class="brand-logo-title">OCA<span>TECH</span></div>
+          <div class="brand-logo-sub">DIGITAL SOLUTIONS</div>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="programmes.html" class="nav-link active">Programmes</a>
+        <a href="services.html" class="nav-link">ICT Services</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact &amp; Apply</a>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20want%20to%20inquire%20about%20your%20training%20programmes" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+          WhatsApp Us
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Apply Now</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="index.html" class="mobile-nav-link">Home <span>→</span></a>
+    <a href="programmes.html" class="mobile-nav-link active">Training Programmes <span>→</span></a>
+    <a href="services.html" class="mobile-nav-link">ICT Services <span>→</span></a>
+    <a href="about.html" class="mobile-nav-link">About OCATECH <span>→</span></a>
+    <a href="contact.html" class="mobile-nav-link">Contact &amp; Apply <span>→</span></a>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 1rem;">
+      <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20want%20to%20inquire%20about%20classes" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        Chat on WhatsApp (08165321429)
+      </a>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Apply for Training</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="section-sm bg-navy" style="border-bottom: 1px solid var(--color-border);">
+      <div class="container text-center">
+        <div class="badge badge-orange" style="margin-bottom: 1rem;">15 Practical Tech Tracks</div>
+        <h1>Training Programmes Catalog</h1>
+        <p style="max-width: 720px; margin: 0.85rem auto 0 auto; font-size: 1.15rem;">
+          Find the perfect programme for your career, business, or passion. Filter by domain, inspect key learning modules, and connect directly with our admissions team.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter Buttons & Catalog Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div class="filter-container" id="categoryFilterGroup" role="tablist" aria-label="Programme Categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All (15)</button>
+          <button class="filter-btn" data-filter="digital-skills" role="tab">Digital &amp; Computer Skills</button>
+          <button class="filter-btn" data-filter="creative-media" role="tab">Creative &amp; Media</button>
+          <button class="filter-btn" data-filter="data-programming" role="tab">Data &amp; Programming</button>
+          <button class="filter-btn" data-filter="web-development" role="tab">Web &amp; Software Dev</button>
+          <button class="filter-btn" data-filter="networking-security" role="tab">Networking &amp; Security</button>
+          <button class="filter-btn" data-filter="business-growth" role="tab">Business &amp; Growth</button>
+          <button class="filter-btn" data-filter="artificial-intelligence" role="tab">Artificial Intelligence</button>
+          <button class="filter-btn" data-filter="hardware-skills" role="tab">Hardware &amp; Repairs</button>
+        </div>
+
+        <!-- Programmes Grid -->
+        <div class="programmes-grid" id="programmesGrid">
+
+          <!-- 1. Certificate in Computer Applications -->
+          <div class="programme-card" data-category="digital-skills">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="slate-blue">Digital &amp; Computer Skills</span>
+                <span class="badge">Beginner</span>
+              </div>
+              <h3 class="programme-title">Certificate in Computer Applications</h3>
+              <p class="programme-desc">
+                Master computer fundamentals, typing mastery, Microsoft Office Suite (Word, Excel, PowerPoint), and internet productivity workflows.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Computer OS Navigation &amp; File Management</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Keyboarding &amp; Fast Typing Mastery</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Microsoft Word, Excel &amp; PowerPoint</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Email Etiquette, Web Research &amp; Cloud Storage</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 4 - 8 Weeks (Flexible)</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20the%20Certificate%20in%20Computer%20Applications%20programme." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=certificate-computer-applications" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. AI Tools for Business & Productivity -->
+          <div class="programme-card" data-category="digital-skills">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="slate-blue">Digital &amp; Computer Skills</span>
+                <span class="badge badge-orange">Productivity</span>
+              </div>
+              <h3 class="programme-title">AI Tools for Business &amp; Productivity</h3>
+              <p class="programme-desc">
+                Leverage ChatGPT, Claude, Microsoft Copilot, and automation tools to 10x your daily business, spreadsheet, and workplace output.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Prompt Engineering for Workplace Reports</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> ChatGPT &amp; Claude for Business Communication</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> AI in Excel &amp; Google Sheets Formulations</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Routine Office Task Automation (Zapier/Make)</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 3 - 6 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20AI%20Tools%20for%20Business%20and%20Productivity." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=ai-tools-business" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Graphic Design -->
+          <div class="programme-card" data-category="creative-media">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="magenta">Creative &amp; Media</span>
+                <span class="badge">Visual Arts</span>
+              </div>
+              <h3 class="programme-title">Graphic Design</h3>
+              <p class="programme-desc">
+                Create stunning visual brand identities, flyers, social media graphics, and logos using CorelDraw and Adobe Photoshop.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Design Principles, Typography &amp; Color Theory</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> CorelDraw Vector Art &amp; Print Layouts</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Adobe Photoshop Photo Editing &amp; Retouching</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Logo Design, Brand Identity &amp; Client Portfolio</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 6 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Graphic%20Design." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=graphic-design" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Video Editing & Content Creation -->
+          <div class="programme-card" data-category="creative-media">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="magenta">Creative &amp; Media</span>
+                <span class="badge badge-orange">Content</span>
+              </div>
+              <h3 class="programme-title">Video Editing &amp; Content Creation</h3>
+              <p class="programme-desc">
+                Edit high-impact video content for TikTok, YouTube, Reels, and corporate commercials with Adobe Premiere Pro &amp; CapCut.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Timeline Pacing, Cutting &amp; Storytelling</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Premiere Pro &amp; CapCut Desktop Editing</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Sound Design, B-Roll, Transitions &amp; Color Grading</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Motion Graphics, Subtitling &amp; Viral Hooks</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 6 - 10 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Video%20Editing%20and%20Content%20Creation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=video-editing-content-creation" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Data Analysis -->
+          <div class="programme-card" data-category="data-programming">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="cyan">Data &amp; Programming</span>
+                <span class="badge">In-Demand</span>
+              </div>
+              <h3 class="programme-title">Data Analysis</h3>
+              <p class="programme-desc">
+                Transform raw business spreadsheets into actionable insights using Advanced Excel, SQL database queries, and Power BI dashboards.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Excel (XLOOKUP, Index-Match, Pivot Tables)</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Data Cleaning &amp; Automation with Power Query</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> SQL Queries, Joins, Aggregations &amp; Filters</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Power BI Interactive Executive Dashboards</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Data%20Analysis." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=data-analysis" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Python Programming -->
+          <div class="programme-card" data-category="data-programming">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="cyan">Data &amp; Programming</span>
+                <span class="badge">Programming</span>
+              </div>
+              <h3 class="programme-title">Python Programming</h3>
+              <p class="programme-desc">
+                Learn Python from scratch for automation, scripting, data handling, and backend software engineering fundamentals.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Python Syntax, Variables, Loops &amp; Functions</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Data Structures (Lists, Dicts, Tuples, Sets)</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Object-Oriented Programming (OOP) in Python</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Automation Scripts &amp; Web Scraping (BeautifulSoup)</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Python%20Programming." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=python-programming" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Web Design & Development -->
+          <div class="programme-card" data-category="web-development">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="green">Web &amp; Software</span>
+                <span class="badge badge-green">Frontend</span>
+              </div>
+              <h3 class="programme-title">Web Design &amp; Development</h3>
+              <p class="programme-desc">
+                Build responsive, mobile-first websites using semantic HTML5, modern CSS3 (Flexbox/Grid), and interactive JavaScript.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> HTML5 Semantic Markup &amp; Accessibility</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> CSS3 Styling, Flexbox, CSS Grid &amp; Transitions</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> JavaScript DOM Manipulation &amp; Events</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Git/GitHub Version Control &amp; Cloud Deployment</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Web%20Design%20and%20Development." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=web-design-development" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. WordPress Website Development -->
+          <div class="programme-card" data-category="web-development">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="green">Web &amp; Software</span>
+                <span class="badge">No-Code / Low-Code</span>
+              </div>
+              <h3 class="programme-title">WordPress Website Development</h3>
+              <p class="programme-desc">
+                Launch professional corporate websites, blogs, and e-commerce stores fast with WordPress, Elementor, and Paystack integration.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Domain, Hosting &amp; Cloudflare Configuration</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Elementor Page Builder Customization</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> WooCommerce Store &amp; Payment Gateway Setup</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Speed Optimization, Security &amp; On-Page SEO</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 4 - 8 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20WordPress%20Website%20Development." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=wordpress-website-development" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Desktop & Mobile App Development -->
+          <div class="programme-card" data-category="web-development">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="green">Web &amp; Software</span>
+                <span class="badge badge-orange">Mobile</span>
+              </div>
+              <h3 class="programme-title">Desktop &amp; Mobile App Development</h3>
+              <p class="programme-desc">
+                Build cross-platform mobile apps for Android and iOS devices, plus desktop utilities using modern development frameworks.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Mobile UI Layouts &amp; Navigation Flow</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> State Management &amp; REST API Integration</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Local Storage &amp; SQLite Databases</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Device APIs (Camera, Location, Push Alerts)</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 10 - 14 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Desktop%20and%20Mobile%20App%20Development." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=desktop-mobile-app-development" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. Full-Stack Development -->
+          <div class="programme-card" data-category="web-development">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="green">Web &amp; Software</span>
+                <span class="badge badge-red">Advanced</span>
+              </div>
+              <h3 class="programme-title">Full-Stack Development</h3>
+              <p class="programme-desc">
+                Master both frontend user interfaces and backend server databases to architect and deploy complete production web applications.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Frontend (HTML5, CSS3, JS ES6+)</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Backend Server Architecture &amp; RESTful APIs</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Database Engineering (PostgreSQL / MongoDB)</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Authentication, App Security &amp; Cloud DevOps</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 12 - 16 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Full-Stack%20Development." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=full-stack-development" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11. Networking & Wi-Fi -->
+          <div class="programme-card" data-category="networking-security">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="slate-blue">Networking &amp; Security</span>
+                <span class="badge">Hands-On Lab</span>
+              </div>
+              <h3 class="programme-title">Networking &amp; Wi-Fi</h3>
+              <p class="programme-desc">
+                Configure enterprise LAN/WAN networks, routers, switches, subnetting, and robust commercial Wi-Fi systems.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> OSI Model, TCP/IP &amp; IPv4/IPv6 Subnetting</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Structured Cabling, RJ45 Crimping &amp; Patch Panels</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> MikroTik &amp; Cisco Router Configuration</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Commercial Wi-Fi Access Points &amp; Hotspots</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 6 - 10 Weeks</span>
+                <span>📍 Physical Lab Intensive</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Networking%20and%20Wi-Fi." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=networking-wifi" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12. Cybersecurity & Ethical Hacking -->
+          <div class="programme-card" data-category="networking-security">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="slate-blue">Networking &amp; Security</span>
+                <span class="badge badge-red">Security</span>
+              </div>
+              <h3 class="programme-title">Cybersecurity &amp; Ethical Hacking</h3>
+              <p class="programme-desc">
+                Protect computer systems, perform vulnerability assessments, analyze packets with Wireshark, and master ethical defense.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Cyber Threat Landscape &amp; Defense Protocols</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Linux for Security &amp; Terminal Commands</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Network Packet Analysis with Wireshark</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Web Application Security (OWASP Top 10)</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Cybersecurity%20and%20Ethical%20Hacking." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=cybersecurity-ethical-hacking" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13. Digital Marketing -->
+          <div class="programme-card" data-category="business-growth">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="orange">Business &amp; Growth</span>
+                <span class="badge badge-orange">Sales &amp; Growth</span>
+              </div>
+              <h3 class="programme-title">Digital Marketing</h3>
+              <p class="programme-desc">
+                Drive high-converting customer leads and sales with Facebook Ads, Instagram Ads, Google Search, SEO, and WhatsApp marketing funnels.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Meta Ads Manager (Facebook &amp; Instagram)</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Google Search Ads &amp; Local Business SEO</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> High-Converting Sales Funnels &amp; Copywriting</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> WhatsApp Business Automated Sales Funnels</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 6 - 8 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Digital%20Marketing." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=digital-marketing" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14. AI Engineering & Automation -->
+          <div class="programme-card" data-category="artificial-intelligence">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="cyan">Artificial Intelligence</span>
+                <span class="badge badge-orange">Cutting Edge</span>
+              </div>
+              <h3 class="programme-title">AI Engineering &amp; Automation</h3>
+              <p class="programme-desc">
+                Build AI-powered software, custom customer service chatbots, LLM pipelines (Groq, OpenAI), and multi-agent workflows.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> LLM Architecture, Tokens &amp; Embeddings</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Building with Groq API &amp; OpenAI API</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Custom AI Support Chatbot Development</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Automated Business Workflows with Python</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20AI%20Engineering%20and%20Automation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=ai-engineering-automation" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15. Computer Hardware Maintenance & Troubleshooting -->
+          <div class="programme-card" data-category="hardware-skills">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="slate-blue">Hardware &amp; Repairs</span>
+                <span class="badge">Workshop Lab</span>
+              </div>
+              <h3 class="programme-title">Computer Hardware Maintenance &amp; Repairs</h3>
+              <p class="programme-desc">
+                Assemble, diagnose, repair, and upgrade desktop computers and laptops from motherboard diagnostics to screen replacements.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Curriculum Modules</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Computer Architecture &amp; Component Diagnostics</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Desktop Assembly &amp; Power Supply Troubleshooting</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Laptop Teardown, Screen &amp; Keyboard Replacements</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> NVMe SSD Upgrades, OS Cloning &amp; Thermal Care</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 6 - 10 Weeks</span>
+                <span>📍 Physical Workshop Lab</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Computer%20Hardware%20Maintenance%20and%20Repairs." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=computer-hardware-maintenance" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="programmeEmptyState" style="display: none; text-align: center; padding: 4rem 1rem;">
+          <h3>No programmes found in this category</h3>
+          <p style="margin-top: 0.5rem;">Try selecting another category or view all programmes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo" aria-label="OCATECH Digital Solutions">
+          <div class="brand-logo-mark">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 12H8L11 5L14 19L17 12H20" stroke="#46CEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="brand-logo-text">
+            <div class="brand-logo-title">OCA<span>TECH</span></div>
+            <div class="brand-logo-sub">DIGITAL SOLUTIONS</div>
+          </div>
+        </a>
+        <p class="footer-tagline">
+          "Choose OCATECH, Choose Excellence."<br>
+          Empowering individuals and businesses in Onitsha and beyond with practical, high-impact digital and ICT education.
+        </p>
+        <div style="font-size: 0.8rem; color: var(--color-text-dim);">
+          Registered Sole Proprietorship • BN 9677251
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="programmes.html" class="footer-link">All 15 Programmes</a>
+          <a href="services.html" class="footer-link">ICT Services</a>
+          <a href="about.html" class="footer-link">About OCATECH</a>
+          <a href="contact.html" class="footer-link">Contact &amp; Apply</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Top Categories</h4>
+        <div class="footer-links">
+          <a href="programmes.html?cat=web-development" class="footer-link">Web &amp; Software Dev</a>
+          <a href="programmes.html?cat=artificial-intelligence" class="footer-link">Artificial Intelligence</a>
+          <a href="programmes.html?cat=data-programming" class="footer-link">Data &amp; Python</a>
+          <a href="programmes.html?cat=creative-media" class="footer-link">Creative &amp; Media</a>
+          <a href="programmes.html?cat=networking-security" class="footer-link">Networking &amp; Security</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Center Location</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div>62 New Market Road, Onitsha North, Anambra State, Nigeria</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <div>08165321429 (WhatsApp) / 07062620862</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div>ocatechskill@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>&copy; 2026 OCATECH Digital Solutions. All rights reserved.</div>
+      <div>Designed for Excellence • Hosted on Cloudflare Pages</div>
+    </div>
+  </footer>
+
+  <!-- Floating AI Chatbot Widget -->
+  <button class="chat-launcher" id="chatLauncher" aria-label="Open AI Assistant" aria-expanded="false">
+    <div class="chat-launcher-badge" title="AI Assistant Online"></div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </button>
+
+  <div class="chat-window" id="chatWindow" role="dialog" aria-modal="true" aria-label="OCATECH AI Assistant">
+    <div class="chat-header">
+      <div class="chat-bot-info">
+        <div class="chat-avatar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path><rect x="4" y="8" width="16" height="12" rx="2"></rect><circle cx="9" cy="13" r="1.5" fill="currentColor"></circle><circle cx="15" cy="13" r="1.5" fill="currentColor"></circle></svg>
+        </div>
+        <div>
+          <div class="chat-bot-title">OCATECH AI Assistant</div>
+          <div class="chat-bot-status"><span class="status-dot"></span> Powered by Groq • Online</div>
+        </div>
+      </div>
+      <button class="chat-close-btn" id="chatCloseBtn" aria-label="Close chat window">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+
+    <form class="chat-input-box" id="chatForm">
+      <input type="text" class="chat-input" id="chatInput" placeholder="Ask about courses, location, schedule..." aria-label="Type your question" autocomplete="off">
+      <button type="submit" class="chat-send-btn" id="chatSendBtn" aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+      </button>
+    </form>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+</body>
+</html>

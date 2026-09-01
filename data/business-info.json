@@ -1,0 +1,120 @@
+{
+  "businessName": "OCATECH Digital Solutions",
+  "businessType": "ICT Hub and Training Center",
+  "registration": {
+    "status": "Registered Sole Proprietorship",
+    "rcNumber": "BN 9677251",
+    "registeredDate": "13 July 2026",
+    "country": "Nigeria"
+  },
+  "tagline": "Choose OCATECH, Choose Excellence",
+  "founderAndDirector": "Oluegwu Chigozie",
+  "location": {
+    "address": "62 New Market Road",
+    "city": "Onitsha North",
+    "state": "Anambra State",
+    "country": "Nigeria",
+    "landmark": "Near Main Market commercial corridor, Onitsha"
+  },
+  "contact": {
+    "whatsapp": "+2348165321429",
+    "whatsappDisplay": "08165321429",
+    "phone": "+2347062620862",
+    "phoneDisplay": "07062620862",
+    "email": "ocatechskill@gmail.com",
+    "workingHours": "Monday - Saturday: 8:30 AM - 5:30 PM (WAT)"
+  },
+  "vision": "To become a trusted technology training and ICT solutions provider that helps individuals and businesses develop practical skills and effectively use technology for growth and productivity.",
+  "mission": "To provide accessible, practical and relevant technology education while delivering reliable ICT-related services that solve real-world problems.",
+  "coreValues": [
+    {
+      "name": "Practicality",
+      "description": "Hands-on learning with real projects that prepare students for immediate workplace and freelance success."
+    },
+    {
+      "name": "Excellence",
+      "description": "Maintaining the highest standard in curriculum quality, student mentorship, and ICT service delivery."
+    },
+    {
+      "name": "Continuous Learning",
+      "description": "Staying updated with rapidly advancing digital and AI technologies to keep learners ahead."
+    },
+    {
+      "name": "Integrity",
+      "description": "Honest guidance, transparent operations, and authentic dedication to student empowerment."
+    },
+    {
+      "name": "Innovation",
+      "description": "Embracing cutting-edge tools, artificial intelligence, and modern methodologies."
+    },
+    {
+      "name": "Accessibility",
+      "description": "Making tech education beginner-friendly, flexible (physical & online), and welcoming to all backgrounds."
+    }
+  ],
+  "trainingApproach": {
+    "summary": "Our unique 6-stage practical learning methodology ensures every student transitions from beginner to job-ready builder.",
+    "stages": [
+      { "step": 1, "name": "Learn", "desc": "Understand core concepts and fundamentals without overwhelming jargon." },
+      { "step": 2, "name": "Practice", "desc": "Hands-on guided exercises under instructor supervision." },
+      { "step": 3, "name": "Build", "desc": "Develop real-world projects, apps, graphics, or systems." },
+      { "step": 4, "name": "Test", "desc": "Troubleshoot, debug, and review output for industry quality." },
+      { "step": 5, "name": "Improve", "desc": "Incorporate feedback and optimize performance." },
+      { "step": 6, "name": "Apply", "desc": "Deploy to live production, build portfolios, or take on freelance/workplace roles." }
+    ]
+  },
+  "deliveryModes": [
+    {
+      "type": "Physical Training",
+      "description": "On-site intensive hands-on classes at our well-equipped ICT Center at 62 New Market Road, Onitsha North."
+    },
+    {
+      "type": "Online Training",
+      "description": "Interactive virtual sessions with live mentorship, recorded lessons, and project reviews for learners anywhere."
+    }
+  ],
+  "admission": {
+    "type": "Rolling Admission",
+    "details": "No fixed session start dates. You can enroll and start your customized learning track anytime."
+  },
+  "pricingPolicy": {
+    "note": "Pricing varies by programme, duration, and track depth. Specific prices are provided upon inquiry based on your learning goals.",
+    "pricingGuidance": "Contact us on WhatsApp at 08165321429 for the latest schedule, track details, and installment options."
+  },
+  "acceptedPaymentMethods": [
+    "Bank Transfer",
+    "POS Terminal (at the Onitsha center)",
+    "Cash Payment (at the center)",
+    "Flexible Installment Plans"
+  ],
+  "services": [
+    {
+      "id": "software-installation",
+      "name": "Software Installation & System Maintenance",
+      "icon": "code-slash",
+      "shortDesc": "Professional OS setup, essential business software, developer toolchains, antivirus protection, and system optimization.",
+      "details": "We install and configure licensed Operating Systems (Windows/Linux/macOS), productivity suites (Microsoft Office 365, Adobe Creative Cloud, CorelDraw, AutoCAD), software activation, driver updates, virus & malware removal, and hard drive optimization."
+    },
+    {
+      "id": "cctv-installation",
+      "name": "CCTV & Surveillance System Installation",
+      "icon": "shield-check",
+      "shortDesc": "Reliable HD/IP security camera setup with remote mobile phone monitoring for homes, offices, shops, and warehouses.",
+      "details": "End-to-end security surveillance solutions including HD coaxial and IP Network cameras, DVR/NVR configuration, night vision setup, motion detection alerts, mobile live viewing on your smartphone, and ongoing maintenance support in Onitsha and across Anambra State."
+    },
+    {
+      "id": "solar-installation",
+      "name": "Solar & Inverter Power Installation",
+      "icon": "lightning-charge",
+      "shortDesc": "Clean, uninterrupted 24/7 solar and inverter energy systems for homes, businesses, and computer workstations.",
+      "details": "Custom solar power sizing and installation, pure sine wave inverters, deep cycle/lithium battery banks, MPPT solar charge controllers, solar panel roof mounting, and emergency repair to ensure zero downtime for your appliances and tech equipment."
+    },
+    {
+      "id": "corporate-it-support",
+      "name": "Corporate IT Support & Network Setup",
+      "icon": "hdd-network",
+      "shortDesc": "Office LAN/Wi-Fi networking, printer sharing, data backup solutions, and routine IT consulting for businesses.",
+      "details": "Structured cabling, business Wi-Fi access points, router configuration, network printer and file server sharing, data backup and disaster recovery planning, and retainer IT support for small and medium enterprises."
+    }
+  ]
+}

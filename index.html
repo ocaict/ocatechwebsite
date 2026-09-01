@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCATECH Digital Solutions — ICT Hub & Training Center | Onitsha, Nigeria</title>
+  <meta name="description" content="Master in-demand digital, programming, AI, and ICT skills in Onitsha, Nigeria. Practical, project-based training with physical and online classes at OCATECH Digital Solutions.">
+  <meta name="keywords" content="ICT training Onitsha, computer training Anambra, web development, data analysis, python, graphic design, CCTV installation, solar installation, AI tools, OCATECH">
+  <meta name="author" content="OCATECH Digital Solutions">
+  <link rel="canonical" href="https://ocatech.pages.dev/">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ocatech.pages.dev/">
+  <meta property="og:title" content="OCATECH Digital Solutions — Choose OCATECH, Choose Excellence">
+  <meta property="og:description" content="Hands-on ICT training and practical tech solutions in Onitsha, Nigeria. Physical & online cohorts with rolling admission.">
+  <meta property="og:image" content="assets/images/hero-placeholder.svg">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Site Header & Navigation
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="headerBrandLogo" aria-label="OCATECH Digital Solutions Homepage">
+        <div class="brand-logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12H8L11 5L14 19L17 12H20" stroke="#46CEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="4" cy="12" r="2" fill="#FF6600"/>
+            <circle cx="20" cy="12" r="2" fill="#46CEFF"/>
+          </svg>
+        </div>
+        <div class="brand-logo-text">
+          <div class="brand-logo-title">OCA<span>TECH</span></div>
+          <div class="brand-logo-sub">DIGITAL SOLUTIONS</div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="programmes.html" class="nav-link">Programmes</a>
+        <a href="services.html" class="nav-link">ICT Services</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact &amp; Apply</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="nav-cta-group">
+        <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20want%20to%20inquire%20about%20your%20training%20programmes" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm" id="navWhatsAppBtn" aria-label="Chat on WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.392-10.416c-5.523 0-10 4.477-10 10 0 1.767.458 3.427 1.26 4.873l-1.34 4.898 5.01-1.314c1.401.764 3.003 1.199 4.706 1.199 5.523 0 10-4.477 10-10 0-5.523-4.477-10-10-10z"/></svg>
+          <span>WhatsApp Us</span>
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm" id="navApplyBtn">Apply Now</a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <a href="index.html" class="mobile-nav-link active">Home <span>→</span></a>
+    <a href="programmes.html" class="mobile-nav-link">Training Programmes <span>→</span></a>
+    <a href="services.html" class="mobile-nav-link">ICT Services <span>→</span></a>
+    <a href="about.html" class="mobile-nav-link">About OCATECH <span>→</span></a>
+    <a href="contact.html" class="mobile-nav-link">Contact &amp; Apply <span>→</span></a>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 1rem;">
+      <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20want%20to%20inquire%20about%20classes" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+        Chat on WhatsApp (08165321429)
+      </a>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Apply for Training</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- =======================================================================
+         Hero Section
+         ======================================================================= -->
+    <section class="hero" id="heroSection">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge badge-orange">
+            <span>⚡</span> Practical Tech Hub • Onitsha, Nigeria
+          </div>
+          <h1 class="hero-title">
+            Choose OCATECH,<br>
+            <span class="text-gradient">Choose Excellence.</span>
+          </h1>
+          <p class="hero-desc">
+            Gain high-income tech and digital skills designed for real-world application. Learn from industry-aligned curricula with hands-on projects, physical lab training in Onitsha, or flexible online cohorts.
+          </p>
+          <div class="hero-actions">
+            <a href="programmes.html" class="btn btn-primary btn-lg" id="heroExploreBtn">
+              Explore 15 Programmes
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20would%20like%20to%20ask%20about%20your%20training%20and%20enrollment%20options." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg" id="heroWhatsAppBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.392-10.416c-5.523 0-10 4.477-10 10 0 1.767.458 3.427 1.26 4.873l-1.34 4.898 5.01-1.314c1.401.764 3.003 1.199 4.706 1.199 5.523 0 10-4.477 10-10 0-5.523-4.477-10-10-10z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>62 New Market Rd, Onitsha</span>
+            </div>
+            <div class="hero-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Rolling Admission • Start Anytime</span>
+            </div>
+            <div class="hero-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>BN 9677251 Registered</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-frame">
+            <!-- PLACEHOLDER: replace with real center photos when available -->
+            <img src="assets/images/hero-placeholder.svg" alt="OCATECH Digital Solutions Training Environment" width="800" height="600" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Stats Strip
+         ======================================================================= -->
+    <section class="stats-strip" aria-label="Key Highlights">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <div class="stat-number text-gradient-blue">15+</div>
+          <div class="stat-label">In-Demand Tech Programmes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number text-gradient-orange">100%</div>
+          <div class="stat-label">Practical Project-Based Training</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number text-gradient-red">2 Modes</div>
+          <div class="stat-label">Physical (Onitsha) &amp; Online</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number text-gradient">24/7</div>
+          <div class="stat-label">AI Student Assistant Support</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Featured Training Tracks Section
+         ======================================================================= -->
+    <section class="section" id="featuredProgrammes">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Accelerate Your Future</div>
+          <h2>Featured Training Programmes</h2>
+          <p>
+            Curricula carefully structured for absolute beginners to intermediate builders looking to launch high-income careers, freelance, or grow their businesses.
+          </p>
+        </div>
+
+        <div class="programmes-grid">
+          <!-- Card 1: Web Design & Development -->
+          <div class="programme-card">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="green">Web &amp; Software</span>
+                <span class="badge badge-green">Beginner</span>
+              </div>
+              <h3 class="programme-title">Web Design &amp; Development</h3>
+              <p class="programme-desc">
+                Build modern, responsive, mobile-first websites using HTML5, modern CSS3, and JavaScript from scratch.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Core Skills Included</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> HTML5 &amp; Modern Semantic Markup</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> CSS3 Flexbox, Grid &amp; Animations</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> JavaScript DOM &amp; Interactive UI</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Web%20Design%20and%20Development." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=web-design-development" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: AI Engineering & Automation -->
+          <div class="programme-card">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="cyan">Artificial Intelligence</span>
+                <span class="badge badge-orange">Hot Track</span>
+              </div>
+              <h3 class="programme-title">AI Engineering &amp; Automation</h3>
+              <p class="programme-desc">
+                Build next-generation AI agents, custom chatbots, LLM applications (Groq, OpenAI), and automated workflows.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Core Skills Included</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Groq &amp; OpenAI API Integrations</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Custom AI Customer Support Agents</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Business Workflow Automations</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20AI%20Engineering%20and%20Automation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=ai-engineering-automation" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Data Analysis -->
+          <div class="programme-card">
+            <div>
+              <div class="programme-header">
+                <span class="tag-badge" data-tag="cyan">Data &amp; Programming</span>
+                <span class="badge">In-Demand</span>
+              </div>
+              <h3 class="programme-title">Data Analysis</h3>
+              <p class="programme-desc">
+                Transform raw business spreadsheets into executive insights and dashboards with Advanced Excel, SQL, and Power BI.
+              </p>
+              <div class="programme-modules">
+                <div class="programme-modules-title">Core Skills Included</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Excel &amp; Power Query</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> SQL Database Queries &amp; Joins</div>
+                <div class="module-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Interactive Power BI Dashboards</div>
+              </div>
+            </div>
+            <div class="programme-footer">
+              <div class="programme-meta">
+                <span>⏱ 8 - 12 Weeks</span>
+                <span>📍 Physical &amp; Online</span>
+              </div>
+              <div class="programme-actions">
+                <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20am%20interested%20in%20Data%20Analysis." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+                <a href="contact.html?track=data-analysis" class="btn btn-outline btn-sm">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="programmes.html" class="btn btn-blue btn-lg">
+            View All 15 Training Programmes
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         The 6-Step Practical Training Methodology
+         ======================================================================= -->
+    <section class="section bg-navy" id="methodologySection">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-orange">Our Proven Approach</div>
+          <h2>How You Learn at OCATECH</h2>
+          <p>
+            We don't teach passive theory. Our 6-stage practical framework ensures you build muscle memory and graduate with a real-world portfolio.
+          </p>
+        </div>
+
+        <div class="methodology-grid">
+          <div class="method-card">
+            <div class="method-step">01</div>
+            <h3 class="method-title">Learn</h3>
+            <p class="method-desc">Grasp core concepts clearly with beginner-friendly explanations and zero confusing jargon.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-step">02</div>
+            <h3 class="method-title">Practice</h3>
+            <p class="method-desc">Engage in immediate guided drills under direct instructor feedback in our lab.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-step">03</div>
+            <h3 class="method-title">Build</h3>
+            <p class="method-desc">Construct actual client projects, software systems, graphics, or hardware assemblies.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-step">04</div>
+            <h3 class="method-title">Test</h3>
+            <p class="method-desc">Troubleshoot errors, review security/quality standards, and debug like a professional.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-step">05</div>
+            <h3 class="method-title">Improve</h3>
+            <p class="method-desc">Incorporate expert feedback to refine design, speed, structure, and user experience.</p>
+          </div>
+          <div class="method-card">
+            <div class="method-step">06</div>
+            <h3 class="method-title">Apply</h3>
+            <p class="method-desc">Deploy live, publish your portfolio, land jobs, take freelance clients, or grow your business.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ICT Services Overview
+         ======================================================================= -->
+    <section class="section" id="servicesTeaser">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Professional Solutions</div>
+          <h2>Reliable ICT &amp; Tech Services</h2>
+          <p>
+            Beyond training, OCATECH provides dependable hardware, power, security, and software solutions for homes, businesses, and organizations in Onitsha and Anambra State.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Software -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3 class="service-title">Software Installation &amp; Setup</h3>
+            <p class="service-desc">
+              Operating system installation (Windows/Linux/macOS), professional creative suites (Adobe, CorelDraw), MS Office, antivirus, and system tune-up.
+            </p>
+            <div class="service-action">
+              <a href="services.html#software" class="btn btn-outline btn-sm">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 2: CCTV -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            </div>
+            <h3 class="service-title">CCTV &amp; Security Systems</h3>
+            <p class="service-desc">
+              High-definition IP and coaxial camera installation with live mobile viewing on your phone for homes, shops, warehouses, and corporate facilities.
+            </p>
+            <div class="service-action">
+              <a href="services.html#cctv" class="btn btn-outline btn-sm">Learn More →</a>
+            </div>
+          </div>
+
+          <!-- Service 3: Solar & Inverter -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3 class="service-title">Solar &amp; Inverter Power</h3>
+            <p class="service-desc">
+              Uninterrupted 24/7 clean solar and inverter power setups to keep your computers, appliances, and office equipment running without blackout interruption.
+            </p>
+            <div class="service-action">
+              <a href="services.html#solar" class="btn btn-outline btn-sm">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Call to Action Banner
+         ======================================================================= -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-content">
+            <h2 class="cta-title">Ready to Upgrade Your Tech Skills?</h2>
+            <p class="cta-desc">
+              Join our next practical training cohort in Onitsha or enroll online. Flexible installment plans available. Start your technology journey today.
+            </p>
+            <div class="cta-actions">
+              <a href="contact.html" class="btn btn-primary btn-lg" id="ctaApplyBtn">Apply Now Online</a>
+              <a href="https://wa.me/2348165321429?text=Hello%20OCATECH,%20I%20want%20to%20register%20for%20training." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg" id="ctaWhatsAppBtn">
+                Chat With Admissions (08165321429)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo" aria-label="OCATECH Digital Solutions">
+          <div class="brand-logo-mark">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 12H8L11 5L14 19L17 12H20" stroke="#46CEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="brand-logo-text">
+            <div class="brand-logo-title">OCA<span>TECH</span></div>
+            <div class="brand-logo-sub">DIGITAL SOLUTIONS</div>
+          </div>
+        </a>
+        <p class="footer-tagline">
+          "Choose OCATECH, Choose Excellence."<br>
+          Empowering individuals and businesses in Onitsha and beyond with practical, high-impact digital and ICT education.
+        </p>
+        <div style="font-size: 0.8rem; color: var(--color-text-dim);">
+          Registered Sole Proprietorship • BN 9677251
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="programmes.html" class="footer-link">All 15 Programmes</a>
+          <a href="services.html" class="footer-link">ICT Services</a>
+          <a href="about.html" class="footer-link">About OCATECH</a>
+          <a href="contact.html" class="footer-link">Contact &amp; Apply</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Top Programmes</h4>
+        <div class="footer-links">
+          <a href="programmes.html?cat=web-development" class="footer-link">Web Design &amp; Dev</a>
+          <a href="programmes.html?cat=artificial-intelligence" class="footer-link">AI Engineering &amp; Auto</a>
+          <a href="programmes.html?cat=data-programming" class="footer-link">Data Analysis &amp; Python</a>
+          <a href="programmes.html?cat=creative-media" class="footer-link">Graphic &amp; Video Design</a>
+          <a href="programmes.html?cat=networking-security" class="footer-link">Cybersecurity &amp; Wi-Fi</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Center Location</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div>62 New Market Road, Onitsha North, Anambra State, Nigeria</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <div>08165321429 (WhatsApp) / 07062620862</div>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div>ocatechskill@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>&copy; 2026 OCATECH Digital Solutions. All rights reserved.</div>
+      <div>Designed for Excellence • Hosted on Cloudflare Pages</div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Floating AI Chatbot Widget (Present on all pages)
+       ========================================================================= -->
+  <button class="chat-launcher" id="chatLauncher" aria-label="Open AI Assistant" aria-expanded="false">
+    <div class="chat-launcher-badge" title="AI Assistant Online"></div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </button>
+
+  <div class="chat-window" id="chatWindow" role="dialog" aria-modal="true" aria-label="OCATECH AI Assistant">
+    <div class="chat-header">
+      <div class="chat-bot-info">
+        <div class="chat-avatar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path><rect x="4" y="8" width="16" height="12" rx="2"></rect><circle cx="9" cy="13" r="1.5" fill="currentColor"></circle><circle cx="15" cy="13" r="1.5" fill="currentColor"></circle></svg>
+        </div>
+        <div>
+          <div class="chat-bot-title">OCATECH AI Assistant</div>
+          <div class="chat-bot-status"><span class="status-dot"></span> Powered by Groq • Online</div>
+        </div>
+      </div>
+      <button class="chat-close-btn" id="chatCloseBtn" aria-label="Close chat window">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages" aria-live="polite">
+      <!-- Messages rendered dynamically via chatbot.js -->
+    </div>
+
+    <form class="chat-input-box" id="chatForm">
+      <input type="text" class="chat-input" id="chatInput" placeholder="Ask about courses, location, schedule..." aria-label="Type your question" autocomplete="off">
+      <button type="submit" class="chat-send-btn" id="chatSendBtn" aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+      </button>
+    </form>
+  </div>
+
+  <!-- JavaScript Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+</body>
+</html>

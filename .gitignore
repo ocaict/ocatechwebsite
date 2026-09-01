@@ -1,0 +1,16 @@
+# Environment files
+.env
+.env.local
+*.env
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node modules (if any tooling used locally)
+node_modules/
+.wrangler/
+dist/
+build/

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071125" />
+      <stop offset="50%" stop-color="#0c1e40" />
+      <stop offset="100%" stop-color="#020914" />
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#46CEFF" />
+      <stop offset="100%" stop-color="#012D96" />
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6600" />
+      <stop offset="100%" stop-color="#FF0000" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="16" />
+  
+  <!-- Tech Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="100" y1="0" x2="100" y2="600" />
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="300" y1="0" x2="300" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="500" y1="0" x2="500" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+    <line x1="700" y1="0" x2="700" y2="600" />
+  </g>
+
+  <!-- Decorative Glow Orbs -->
+  <circle cx="200" cy="180" r="140" fill="#012D96" opacity="0.35" filter="url(#glow)" />
+  <circle cx="620" cy="420" r="120" fill="#FF6600" opacity="0.25" filter="url(#glow)" />
+
+  <!-- Code / Tech Center Graphic -->
+  <g transform="translate(140, 90)">
+    <!-- Terminal window frame -->
+    <rect x="0" y="0" width="520" height="340" rx="14" fill="#0a162d" stroke="#1c3560" stroke-width="2" />
+    <rect x="0" y="0" width="520" height="42" rx="14" fill="#122244" />
+    <!-- Window controls -->
+    <circle cx="24" cy="21" r="6" fill="#FF4D4D" />
+    <circle cx="44" cy="21" r="6" fill="#FFB84D" />
+    <circle cx="64" cy="21" r="6" fill="#00D26A" />
+    <text x="90" y="26" font-family="'Inter', sans-serif" font-size="12" fill="#9AA5B8">ocatech-student-hub // onitsha-lab</text>
+
+    <!-- Code & UI Elements -->
+    <text x="30" y="80" font-family="'Courier New', monospace" font-size="15" fill="#46CEFF">const student = new TechInnovator({</text>
+    <text x="50" y="110" font-family="'Courier New', monospace" font-size="15" fill="#E5E9F0">  hub: <tspan fill="#FF6600">"OCATECH Digital Solutions"</tspan>,</text>
+    <text x="50" y="140" font-family="'Courier New', monospace" font-size="15" fill="#E5E9F0">  approach: <tspan fill="#3FB200">"Learn &gt; Practice &gt; Build &gt; Apply"</tspan>,</text>
+    <text x="50" y="170" font-family="'Courier New', monospace" font-size="15" fill="#E5E9F0">  location: <tspan fill="#46CEFF">"62 New Market Rd, Onitsha"</tspan>,</text>
+    <text x="50" y="200" font-family="'Courier New', monospace" font-size="15" fill="#E5E9F0">  skillsReady: <tspan fill="#FE00C9">true</tspan></text>
+    <text x="30" y="230" font-family="'Courier New', monospace" font-size="15" fill="#46CEFF">});</text>
+    <text x="30" y="270" font-family="'Courier New', monospace" font-size="15" fill="#3FB200">&gt; student.accelerateCareer();</text>
+    <text x="30" y="300" font-family="'Courier New', monospace" font-size="14" fill="#9AA5B8">// 100% Practical • Hands-on Projects • Industry Ready</text>
+  </g>
+
+  <!-- Badges below -->
+  <g transform="translate(140, 460)">
+    <rect x="0" y="0" width="240" height="60" rx="10" fill="#0c1e40" stroke="#012D96" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="14" fill="#012D96" />
+    <text x="54" y="28" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">15 Practical Courses</text>
+    <text x="54" y="46" font-family="'Inter', sans-serif" font-size="11" fill="#9AA5B8">Physical &amp; Online Cohorts</text>
+  </g>
+
+  <g transform="translate(420, 460)">
+    <rect x="0" y="0" width="240" height="60" rx="10" fill="#0c1e40" stroke="#FF6600" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="14" fill="#FF6600" />
+    <text x="54" y="28" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">ICT Services Hub</text>
+    <text x="54" y="46" font-family="'Inter', sans-serif" font-size="11" fill="#9AA5B8">CCTV • Solar • Software</text>
+  </g>
+</svg>

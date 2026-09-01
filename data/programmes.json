@@ -1,0 +1,317 @@
+[
+  {
+    "id": "certificate-computer-applications",
+    "name": "Certificate in Computer Applications",
+    "category": "Digital & Computer Skills",
+    "categorySlug": "digital-skills",
+    "tagColor": "slate-blue",
+    "shortDescription": "Master computer fundamentals, typing mastery, Microsoft Office Suite (Word, Excel, PowerPoint), and internet productivity.",
+    "fullDescription": "Designed for complete beginners, students, and office workers seeking foundational computer literacy. You will learn PC operating systems, fast typing techniques, document formatting in Microsoft Word, spreadsheet calculations in Excel, dynamic presentations in PowerPoint, and efficient email/cloud workflows.",
+    "duration": "4 - 8 Weeks (Flexible)",
+    "level": "Beginner",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Computer Fundamentals & OS Navigation",
+      "Keyboarding & Fast Typing Mastery",
+      "Microsoft Word (Document Formatting & Reports)",
+      "Microsoft Excel (Formulas, Functions & Data Entry)",
+      "Microsoft PowerPoint (Slide Design & Presentations)",
+      "Internet Research, Email Etiquette & Cloud Storage"
+    ],
+    "targetAudience": "Beginners, School Leavers, Administrative Assistants, Office Professionals"
+  },
+  {
+    "id": "ai-tools-business",
+    "name": "AI Tools for Business & Productivity",
+    "category": "Digital & Computer Skills",
+    "categorySlug": "digital-skills",
+    "tagColor": "slate-blue",
+    "shortDescription": "Leverage ChatGPT, Claude, Microsoft Copilot, and automation tools to 10x your daily business and work output.",
+    "fullDescription": "Learn how modern generative AI tools can automate repetitive office tasks, generate professional business proposals, draft emails, summarize documents, create marketing copy, and analyze spreadsheets in seconds.",
+    "duration": "3 - 6 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Prompt Engineering Fundamentals for Business",
+      "ChatGPT & Claude for Content, Reports & Email Writing",
+      "AI in Spreadsheets (Excel & Google Sheets AI formulas)",
+      "AI for Presentation & Document Design",
+      "Workflow Automation with Zapier/Make & AI agents",
+      "Ethics, Privacy & Verification of AI Outputs"
+    ],
+    "targetAudience": "Business Owners, Managers, Freelancers, Virtual Assistants, Knowledge Workers"
+  },
+  {
+    "id": "graphic-design",
+    "name": "Graphic Design",
+    "category": "Creative & Digital Media",
+    "categorySlug": "creative-media",
+    "tagColor": "magenta",
+    "shortDescription": "Create stunning visual brand identities, flyers, social media graphics, and logos using CorelDraw and Adobe Photoshop.",
+    "fullDescription": "A comprehensive practical course in visual communication. Master design theory, color psychology, typography, image manipulation, and brand identity design. You will build a professional design portfolio containing flyers, business cards, billboards, logos, and digital marketing banners.",
+    "duration": "6 - 12 Weeks",
+    "level": "Beginner to Advanced",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Principles of Design, Color Harmony & Typography",
+      "CorelDraw Vector Design & Print Layouts",
+      "Adobe Photoshop (Photo Editing, Retouching & Compositing)",
+      "Branding: Logos, Stationery, Mockups & Brand Guides",
+      "Social Media Post & Banner Design (Canva + Pro Tools)",
+      "Print Preparation, Color Separation & Client Portfolio Building"
+    ],
+    "targetAudience": "Aspiring Designers, Marketers, Content Creators, Entrepreneurs"
+  },
+  {
+    "id": "video-editing-content-creation",
+    "name": "Video Editing & Content Creation",
+    "category": "Creative & Digital Media",
+    "categorySlug": "creative-media",
+    "tagColor": "magenta",
+    "shortDescription": "Edit high-impact video content for TikTok, YouTube, Reels, and corporate commercials with Premiere Pro & CapCut.",
+    "fullDescription": "Learn the end-to-end craft of digital video production. From storytelling and camera framing to timeline pacing, audio syncing, color grading, motion graphics, captions, and export optimization for social platforms.",
+    "duration": "6 - 10 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Video Storytelling, Framing & Audio Capture Basics",
+      "Adobe Premiere Pro / CapCut Desktop Video Editing",
+      "Pacing, Transitions, B-Roll & Visual Effects",
+      "Sound Design, Audio Cleaning & Background Music Syncing",
+      "Motion Graphics, Lower Thirds & Dynamic Subtitling",
+      "Social Media Growth Strategies (YouTube, TikTok, Reels)"
+    ],
+    "targetAudience": "YouTubers, Social Media Managers, Video Creators, Media Professionals"
+  },
+  {
+    "id": "data-analysis",
+    "name": "Data Analysis",
+    "category": "Data & Programming",
+    "categorySlug": "data-programming",
+    "tagColor": "cyan",
+    "shortDescription": "Transform raw business data into actionable insights using Advanced Excel, Power BI, and SQL.",
+    "fullDescription": "Gain in-demand skills to collect, clean, model, analyze, and visualize data. Master pivot tables, complex Excel formulas, SQL database queries, and interactive Power BI dashboards to help organizations make data-backed commercial decisions.",
+    "duration": "8 - 12 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Advanced Excel (VLOOKUP, XLOOKUP, Index-Match, Pivot Tables)",
+      "Data Cleaning & Transformation with Power Query",
+      "SQL Fundamentals (Queries, Joins, Aggregations, Filtering)",
+      "Power BI Dashboard Building & DAX Calculations",
+      "Business Intelligence, KPIs & Executive Reporting",
+      "Real-world Capstone Data Project & Portfolio Presentation"
+    ],
+    "targetAudience": "Accountants, Graduates, Business Analysts, Decision Makers"
+  },
+  {
+    "id": "python-programming",
+    "name": "Python Programming",
+    "category": "Data & Programming",
+    "categorySlug": "data-programming",
+    "tagColor": "cyan",
+    "shortDescription": "Learn Python from scratch for automation, scripting, data handling, and backend software engineering.",
+    "fullDescription": "Master Python, the world's most popular versatile programming language. Learn variables, data structures, control flow, functions, object-oriented programming (OOP), file handling, web scraping, and building automated scripts.",
+    "duration": "8 - 12 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Python Basics: Variables, Loops, Conditionals & Functions",
+      "Data Structures: Lists, Dictionaries, Tuples & Sets",
+      "Object-Oriented Programming (OOP) in Python",
+      "File Handling, CSV/JSON Parsing & API Interaction",
+      "Web Scraping with BeautifulSoup & Automation Scripts",
+      "Introduction to Python Data Libraries (NumPy & Pandas)"
+    ],
+    "targetAudience": "Aspiring Programmers, Engineers, Science Students, Automators"
+  },
+  {
+    "id": "web-design-development",
+    "name": "Web Design & Development",
+    "category": "Web & Software Development",
+    "categorySlug": "web-development",
+    "tagColor": "green",
+    "shortDescription": "Build modern, responsive, mobile-first websites using HTML5, modern CSS3, and JavaScript.",
+    "fullDescription": "The definitive foundation for aspiring frontend web developers. Learn semantic markup, modern CSS grid/flexbox layouts, responsive mobile adaptation, CSS animations, JavaScript DOM manipulation, and publishing live websites on the cloud.",
+    "duration": "8 - 12 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "HTML5 Semantic Structure & Modern Web Standards",
+      "CSS3 Styling, Flexbox, CSS Grid & Responsive Design",
+      "UI/UX Design Principles, Wireframing & Prototyping",
+      "JavaScript Core (DOM Manipulation, Events, Fetch API)",
+      "Git & GitHub Version Control & Cloud Deployment",
+      "Building & Launching 3 Responsive Client Projects"
+    ],
+    "targetAudience": "Beginners, Career Changers, Freelance Web Designers"
+  },
+  {
+    "id": "wordpress-website-development",
+    "name": "WordPress Website Development",
+    "category": "Web & Software Development",
+    "categorySlug": "web-development",
+    "tagColor": "green",
+    "shortDescription": "Launch dynamic corporate websites, blogs, and e-commerce online stores fast without deep coding.",
+    "fullDescription": "Master WordPress, powering over 40% of the web. Learn domain/hosting setup, theme customization, Elementor page builder, WooCommerce online stores, payment gateway integration (Paystack/Flutterwave), SEO, and site security.",
+    "duration": "4 - 8 Weeks",
+    "level": "Beginner",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Domain Names, Web Hosting & cPanel / Cloudflare Setup",
+      "WordPress Installation, Architecture & Settings",
+      "Page Building with Elementor & Block Editors",
+      "E-commerce Store Setup with WooCommerce",
+      "Payment Gateways Integration & Shipping Configuration",
+      "Site Security, Speed Optimization & Essential SEO"
+    ],
+    "targetAudience": "Entrepreneurs, Freelancers, Digital Marketers, Small Business Owners"
+  },
+  {
+    "id": "desktop-mobile-app-development",
+    "name": "Desktop & Mobile App Development",
+    "category": "Web & Software Development",
+    "categorySlug": "web-development",
+    "tagColor": "green",
+    "shortDescription": "Build cross-platform mobile apps for Android & iOS and desktop utilities with modern frameworks.",
+    "fullDescription": "Learn how to build cross-platform mobile and desktop applications. Master component architecture, UI state management, local database storage, device API access (camera, location), and publishing apps.",
+    "duration": "10 - 14 Weeks",
+    "level": "Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "App Development Fundamentals & Mobile UI Architecture",
+      "Cross-Platform Framework Setup (Flutter / React Native)",
+      "State Management & Navigation Flow",
+      "REST API Integration & Local Storage (SQLite)",
+      "Hardware Integrations (Camera, Geolocation, Notifications)",
+      "Compiling, Testing & App Deployment"
+    ],
+    "targetAudience": "Developers, Tech Enthusiasts, Software Engineers"
+  },
+  {
+    "id": "full-stack-development",
+    "name": "Full-Stack Development",
+    "category": "Web & Software Development",
+    "categorySlug": "web-development",
+    "tagColor": "green",
+    "shortDescription": "Master both frontend user interfaces and backend server databases to build complete web applications.",
+    "fullDescription": "A rigorous professional course covering frontend engineering, backend server logic, RESTful APIs, database design, user authentication, security, and cloud deployment. Graduate with a production-grade web portfolio.",
+    "duration": "12 - 16 Weeks",
+    "level": "Intermediate to Advanced",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Frontend Mastery: HTML5, CSS3, JavaScript ES6+",
+      "Frontend Frameworks & Single-Page Application Architecture",
+      "Backend Engineering: Node.js / Express or Python Backend",
+      "Database Systems: Relational (PostgreSQL) & NoSQL (MongoDB)",
+      "Authentication (JWT / Sessions), Security & CRUD APIs",
+      "Full-Stack Capstone Deployment & CI/CD Pipeline"
+    ],
+    "targetAudience": "Aspiring Full-Stack Software Engineers, Computer Science Students"
+  },
+  {
+    "id": "networking-wifi",
+    "name": "Networking & Wi-Fi",
+    "category": "Networking & Security",
+    "categorySlug": "networking-security",
+    "tagColor": "slate-blue",
+    "shortDescription": "Configure enterprise LAN/WAN networks, routers, switches, subnetting, and robust commercial Wi-Fi systems.",
+    "fullDescription": "Hands-on training in computer networking. Master IP addressing (IPv4/IPv6), subnetting, crimping Ethernet cables, setting up wireless access points, Mikrotik/Cisco router configurations, and network troubleshooting.",
+    "duration": "6 - 10 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical (Lab intensive)",
+    "modules": [
+      "Networking Fundamentals, OSI Model & TCP/IP",
+      "IP Addressing, Subnetting & Network Topologies",
+      "Structured Cabling, RJ45 Crimping & Patch Panels",
+      "Router & Switch Configuration (MikroTik / Cisco basics)",
+      "Wireless Network (Wi-Fi) Setup, Range Extension & Hotspots",
+      "Network Diagnostics, Bandwidth Management & Troubleshooting"
+    ],
+    "targetAudience": "IT Technicians, Network Engineers, Cyber Cafe & Hotel IT Admins"
+  },
+  {
+    "id": "cybersecurity-ethical-hacking",
+    "name": "Cybersecurity & Ethical Hacking",
+    "category": "Networking & Security",
+    "categorySlug": "networking-security",
+    "tagColor": "slate-blue",
+    "shortDescription": "Protect computer systems, identify vulnerabilities, perform penetration testing, and understand ethical defense.",
+    "fullDescription": "Understand modern cyber threats and defense strategies. Learn reconnaissance, vulnerability scanning, password security, social engineering defense, network traffic analysis with Wireshark, web application security, and ethical hacking protocols.",
+    "duration": "8 - 12 Weeks",
+    "level": "Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Cybersecurity Fundamentals & Threat Landscape",
+      "Linux for Security Professionals & Terminal Mastery",
+      "Network Penetration Testing & Packet Analysis with Wireshark",
+      "Web Application Security & OWASP Top 10 Vulnerabilities",
+      "System Hardening, Firewalls, Antivirus & Encryption",
+      "Incident Response & Ethical Hacking Career Paths"
+    ],
+    "targetAudience": "IT Professionals, Developers, System Administrators, Security Enthusiasts"
+  },
+  {
+    "id": "digital-marketing",
+    "name": "Digital Marketing",
+    "category": "Business & Digital Growth",
+    "categorySlug": "business-growth",
+    "tagColor": "orange",
+    "shortDescription": "Drive high-converting leads and sales with Facebook Ads, Google Ads, SEO, content marketing, and WhatsApp marketing.",
+    "fullDescription": "Learn how to turn online traffic into paying customers. Master Meta Ads Manager (Facebook & Instagram ads), Google Ads, Search Engine Optimization (SEO), Email Marketing, Copywriting, and WhatsApp Business sales funnels.",
+    "duration": "6 - 8 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Digital Marketing Foundations & Target Audience Profiling",
+      "Meta Ads (Facebook & Instagram Ads Campaign Mastery)",
+      "Google Search Ads & Local SEO for Nigerian Businesses",
+      "High-Converting Sales Funnels & Copywriting Basics",
+      "WhatsApp Business Marketing & Lead Conversion Systems",
+      "Analytics, Tracking (Pixels/UTMs) & ROI Optimization"
+    ],
+    "targetAudience": "Business Owners, Sales Executives, Freelancers, Social Media Managers"
+  },
+  {
+    "id": "ai-engineering-automation",
+    "name": "AI Engineering & Automation",
+    "category": "Artificial Intelligence",
+    "categorySlug": "artificial-intelligence",
+    "tagColor": "cyan",
+    "shortDescription": "Build AI-powered agents, chatbots, LLM applications, RAG pipelines, and automated business workflows.",
+    "fullDescription": "Take your coding skills into the era of Artificial Intelligence. Learn how to connect Large Language Models (Groq, OpenAI, Anthropic) into software, build Retrieval-Augmented Generation (RAG) knowledge systems, AI chatbots, and multi-agent workflows.",
+    "duration": "8 - 12 Weeks",
+    "level": "Intermediate to Advanced",
+    "delivery": "Physical & Online",
+    "modules": [
+      "Introduction to LLM Architecture, Tokens & Embeddings",
+      "Building with Groq API, OpenAI API & Open-Source LLMs",
+      "Retrieval-Augmented Generation (RAG) with Vector Databases",
+      "Building Custom AI Chatbots & Customer Service Agents",
+      "AI Workflow Automation with Python, Webhooks & Make",
+      "Deploying AI Apps to Production & Cost Optimization"
+    ],
+    "targetAudience": "Software Developers, Data Enthusiasts, Tech Innovators"
+  },
+  {
+    "id": "computer-hardware-maintenance",
+    "name": "Computer Hardware Maintenance & Troubleshooting",
+    "category": "Hardware & Technical Skills",
+    "categorySlug": "hardware-skills",
+    "tagColor": "slate-blue",
+    "shortDescription": "Assemble, diagnose, repair, and upgrade desktop computers and laptops from motherboards to screen replacements.",
+    "fullDescription": "Practical, hands-on workshop training for aspiring PC technicians. Learn hardware component identification, motherboard diagnostics, RAM/SSD upgrades, thermal management, power supply repair, screen replacements, and OS installation/cloning.",
+    "duration": "6 - 10 Weeks",
+    "level": "Beginner to Intermediate",
+    "delivery": "Physical (Lab workshop)",
+    "modules": [
+      "Computer Architecture: CPU, Motherboard, RAM, GPU, Storage",
+      "System Assembly, Cable Management & Safe Work Practices",
+      "Hardware Diagnostics, Power Supply & Beep Code Troubleshooting",
+      "Laptop Teardown, Screen & Keyboard Replacement",
+      "Storage Upgrades (HDD to NVMe SSD) & Data Recovery Basics",
+      "BIOS/UEFI Configuration, Thermal Repasting & Preventative Care"
+    ],
+    "targetAudience": "Hardware Enthusiasts, Repair Technicians, IT Support Engineers"
+  }
+]

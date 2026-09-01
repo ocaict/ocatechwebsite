@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#071125" rx="12" />
+  <rect x="2" y="2" width="596" height="396" fill="none" stroke="#1c3560" stroke-width="2" rx="10" />
+  <circle cx="300" cy="180" r="100" fill="#FF6600" opacity="0.15" />
+  <!-- Solar Panel & Inverter Graphic -->
+  <g transform="translate(200, 80)">
+    <!-- Sun -->
+    <circle cx="200" cy="40" r="22" fill="#FF6600" />
+    <g stroke="#FF6600" stroke-width="3" stroke-linecap="round">
+      <line x1="200" y1="8" x2="200" y2="2" />
+      <line x1="200" y1="72" x2="200" y2="78" />
+      <line x1="168" y1="40" x2="162" y2="40" />
+      <line x1="232" y1="40" x2="238" y2="40" />
+      <line x1="177" y1="17" x2="173" y2="13" />
+      <line x1="223" y1="63" x2="227" y2="67" />
+      <line x1="177" y1="63" x2="173" y2="67" />
+      <line x1="223" y1="17" x2="227" y2="13" />
+    </g>
+    <!-- Solar Panel Grid -->
+    <polygon points="30,150 170,150 145,80 55,80" fill="#0c224a" stroke="#46CEFF" stroke-width="3" />
+    <line x1="100" y1="80" x2="100" y2="150" stroke="#46CEFF" stroke-width="2" />
+    <line x1="42" y1="115" x2="158" y2="115" stroke="#46CEFF" stroke-width="2" />
+    <!-- Stand -->
+    <line x1="70" y1="150" x2="60" y2="175" stroke="#9AA5B8" stroke-width="4" />
+    <line x1="130" y1="150" x2="140" y2="175" stroke="#9AA5B8" stroke-width="4" />
+    <line x1="40" y1="175" x2="160" y2="175" stroke="#9AA5B8" stroke-width="4" />
+  </g>
+  <text x="300" y="290" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">Solar &amp; Inverter Power</text>
+  <text x="300" y="325" text-anchor="middle" font-family="'Inter', sans-serif" font-size="14" fill="#9AA5B8">24/7 Reliable Clean Energy for Homes &amp; Offices</text>
+</svg>
